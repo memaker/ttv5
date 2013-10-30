@@ -9,10 +9,8 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
- *= require_tree images
- *= require_tree img
- *= require_tree less
+ *= require united/loader
+ *= require united/bootswatch
 */
 
 .content {

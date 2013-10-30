@@ -17,7 +17,7 @@ gem "launchy", ">= 2.2.0", :group => :test
 gem "capybara", ">= 2.0.3", :group => :test
 gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
 gem "less-rails", ">= 2.2.6", :group => :assets
-gem "twitter-bootstrap-rails", ">= 2.2.4", :group => :assets
+# gem "twitter-bootstrap-rails", ">= 2.2.4", :group => :assets
 gem "libv8", ">= 3.11.8"
 gem "therubyracer", ">= 0.11.3", :group => :assets, :platform => :ruby, :require => "v8"
 gem "devise", ">= 2.2.3"
@@ -28,3 +28,7 @@ gem "quiet_assets", ">= 1.0.2", :group => :development
 gem "figaro", ">= 0.6.3"
 gem "better_errors", ">= 0.7.2", :group => :development
 gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri_19, :rbx]
+# twitter bootstrap css & javascript toolkit
+gem 'twitter-bootswatch-rails', '>= 2.3.2.8'
+# twitter bootstrap helpers gem, e.g., alerts etc...
+gem 'twitter-bootswatch-rails-helpers'
